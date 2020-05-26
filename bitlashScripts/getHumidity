@@ -1,0 +1,5 @@
+#!/bin/bash
+echo run humid > /dev/ttyUSB0
+read data < /dev/ttyUSB0
+echo $data
+echo boot > /dev/ttyUSB0
