@@ -20,8 +20,8 @@ humidity = int(output)
 # create a string to hold the first part of the URL
 WUurl = "https://weatherstation.wunderground.com/weatherstation\
 /updateweatherstation.php?"
-WU_station_id = "KCOCOLOR1467" # Replace XXXX with your PWS ID
-WU_station_pwd = "tkPQQHul" # Replace YYYY with your Password
+WU_station_id = "XXXX" # Replace XXXX with your PWS ID
+WU_station_pwd = "YYYY" # Replace YYYY with your Password
 WUcreds = "ID=" + WU_station_id + "&PASSWORD="+ WU_station_pwd
 date_str = "&dateutc=now"
 action_str = "&action=updateraw"
